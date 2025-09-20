@@ -13,4 +13,4 @@ parse_git_branch() {
 	fi
 }
 
-PS1='\[\e[42m\] \u@\h \[\e[0m\]\[\e[41m\] $(parse_git_branch "%s")\[\e[0m\] \[\e[40m\]\w\[\e[0m\]\n\[\e[32m\]>\[\e[0m\] '
+PS1='\[\e[44m\] \u@\h \[\e[0m\]\[\e[31m\] $(parse_git_branch "%s")\[\e[0m\] \[\e[40m\]\w\[\e[0m\]\n\[\e[32m\]>\[\e[0m\] '
